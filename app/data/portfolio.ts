@@ -66,12 +66,12 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "mobile-hub",
-    title: "Next-Gen Mobile Platform",
-    description: "An ultra-optimized mobile utility designed to bridge high-performance tasks with zero interface friction. Launching soon to production environments.",
+    title: "GeezTic",
+    description: "An easy simple ticketing system for large events.",
     type: "Android App",
-      image: "/projects/pro.webp", 
+      image: "/projects/android.png", 
     tags: ["React Native", "Supabase"],
-    isUpcoming: true,
+    isUpcoming: false,
   }
   ,
   {
@@ -107,5 +107,19 @@ export const PROJECTS: Project[] = [
     isUpcoming: false,
     githubUrl: "https://github.com/ananiabelay/Ananistodo",
 
+  },
+   {
+    id: "GEEZTICK",
+    title: "Ticket System",
+    description: "A ticketing system build on next.js .",
+    type: "Web App",
+      image: "/projects/web.png", 
+    tags: ["nodejs","Nextjs"],
+    isUpcoming: false,
+    githubUrl: "https://github.com/ananiabelay/geezticket",
+    liveUrl: "https://geezticket.pro.et/",
+
+
   }
+
 ];
