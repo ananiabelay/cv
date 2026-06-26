@@ -116,7 +116,7 @@ export const PROJECTS: Project[] = [
       image: "/projects/web.png", 
     tags: ["nodejs","Nextjs"],
     isUpcoming: false,
-    githubUrl: "https://github.com/ananiabelay/geezticket",
+    githubUrl: "https://github.com/ananiabelay/geeztick",
     liveUrl: "https://geezticket.pro.et/",
 
 
